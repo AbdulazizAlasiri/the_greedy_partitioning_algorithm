@@ -13,7 +13,7 @@ def read_data():
 def linkage_attack(dataset, table):
 
     for person in table:
-        print("\nSarching for {}'s data... ".format(person[0]))
+        print("Searching for {}'s data... ".format(person[0]))
         findings = []
         for row in dataset:
 
